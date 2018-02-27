@@ -1,0 +1,100 @@
+.jumbotron {
+    background-color:  #5D0D66;
+    color: white;
+    height: 110px;
+    padding-top: 25px;
+}
+
+h1 {
+    font-family: 'Gochi Hand', cursive;
+    margin-top: 0px;
+}
+
+body {
+    background-image: url("../images/background.jpg");
+}
+
+.panel-default > .panel-heading {
+    background-color: #5D0D66;
+    color: white;
+    font-family: 'Gochi Hand',cursive;
+    font-size: 22px;
+}
+
+ul {
+    color: #5D0D66;
+    font-family: 'Gochi Hand',cursive;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: -30px;
+}
+
+img{
+    width: 80%;
+    height: 80%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.panel1,.panel2,.panel3{
+    min-height: 425px;
+}
+
+.panel-default > .score {
+    background-color: #fae8fc;
+    color: black;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.panel-score{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    height: 125px;
+}
+
+.target-score, .your-score {
+    font-size: 50px;
+    font-family: 'Gochi Hand', cursive;
+    padding-top: 8px;
+}
+
+.score-board, .score-message {
+    padding-left: 30px;
+}
+
+.score-message {
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: #fae8fc;
+    color: black;
+    border: darkgray;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: #5D0D66;
+    color: white;
+    border: darkgray;
+}
+
+.btn:active{
+    background-color: #5D0D66;
+    color: white;
+    border: darkgray;
+}
+
+.btn:focus{
+    background-color: #fae8fc;
+    color: black;
+    border: darkgray;
+}

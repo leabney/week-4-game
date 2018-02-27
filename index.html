@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Crystal Collector</title>
+    <!-- Link to fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Gochi+Hand" rel="stylesheet">
+
+    <!-- Added link to the jQuery Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Link to stylesheets -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- Jumbotron for Title -->
+    <div class="jumbotron">
+        <h1 class="text-center">Crystal Collector</h1>
+    </div>
+    <div class="container">
+        <div class="col-sm-4">
+            <div class="panel panel-default panel1">
+                <div class="panel-heading text-center">Instructions</div>
+                <div class="panel-body">
+                    <ul>Objective: Make Your Score = Target Score</ul>
+                    <li>At the start of the game, you will be given a Target Score &amp; 4 crystals.</li>
+                    <br>
+                    <li>Each crystal is worth a set number of points. The number of points will be hidden from you until you
+                        click on the crystal.</li>
+                    <br>
+                    <li>Clicking on a crystal adds points to Your Score.</li>
+                    <br>
+                    <li>Click the correct sequence of crystals to make Your Score equal the Target Score, but - be careful! Don't
+                        go over the Target Score or you lose the game!</li>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="panel panel-default panel2">
+                <div class="panel-heading text-center">Crystals</div>
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <img src="assets/images/jewel-1.jpg" alt="Jewel 1" id="jewel1" class="img-responsive jewel">
+                        </div>
+                        <div class="col-sm-6">
+                            <img src="assets/images/jewel-2.png" alt="Jewel 2" id="jewel2" class="img-responsive jewel">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <img src="assets/images/jewel-3.png" alt="Jewel 3" id="jewel3" class="img-responsive jewel">
+                        </div>
+                        <div class="col-sm-6">
+                            <img src="assets/images/jewel-4.png" alt="Jewel 4" id="jewel4" class="img-responsive jewel">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="panel panel-default panel3">
+                <div class="panel-heading text-center">Score</div>
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="panel panel-default panel-score">
+                                <div class="panel-heading text-center score">Target Score</div>
+                                <div class="panel-body target-score">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="panel panel-default panel-score">
+                                <div class="panel-heading text-center score">Your Score</div>
+                                <div class="panel-body your-score">0
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 score-board">
+                            <h3 id="wins">Wins: 0</h3>
+                        </div>
+                        <div class="col-sm-6 score-board">
+                            <h3 id="losses">Losses: 0</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 score-message">
+                            Continue collecting crystals until Your Score matches the Target Score.
+                        </div>
+                    </div>
+                    <div class="row">
+                        <button type="button" class="btn btn-info">Reset</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="assets/javascript/game.js"></script>
+    </div>
+</body>
